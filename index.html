@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="css/style.css">
 
   <!-- More -->
-  <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="icon" type="image/png" href="favicon-light.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" href="favicon-dark.png" media="(prefers-color-scheme: dark)">
+
   <link rel="canonical" href="https://sand.institute">
   <meta name="author" content="Kevin Chen">
   <meta name="description" content="sand sand sand">
@@ -25,14 +27,21 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@inchkev">
   <meta name="twitter:creator" content="@inchkev">
+
+  <script src="js/sand.js" type="module" defer></script>
 </head>
 
 <body>
   <main>
-
+    <div class="center-screen">
+      <p>
+        computers are made of silicon, which is made of sand. sand can’t think.
+      </p>
+    </div>
+    <canvas id="glcanvas"></canvas>
+  </main>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" type="text/javascript"></script>
-  <script src="js/script.js" type="text/javascript"></script>
 </body>
 
 </html>

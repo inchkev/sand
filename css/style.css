@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "PP Neuebit";
+  src: url("../fonts/PPNeueBit-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Neuebit";
+  src: url("../fonts/PPNeueBit-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+p {
+  font-family: "PP Neuebit"; serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+canvas {
+  position: fixed;
+  margin: 0;
+  border: 0;
+  width: 100vw;
+  height: 100vh;
+}
